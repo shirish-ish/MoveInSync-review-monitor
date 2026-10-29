@@ -1,0 +1,84 @@
+<!doctype html><html lang='en'><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>MoveInSync review monitor</title><style>body{font:16px system-ui;margin:40px auto;padding:0 24px;max-width:1050px;color:#172b39;background:#f7fafc}h1,h2{color:#123e53}section{background:white;padding:22px;margin:20px 0;border:1px solid #dbe4ea;border-radius:10px}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:8px;border-bottom:1px solid #ddd;text-align:left}blockquote{border-left:3px solid #53788d;margin:12px 0;padding:12px;background:#f4f7f9}.note{color:#704813}small{overflow-wrap:anywhere}</style>
+<h1>MoveInSync review monitor</h1>
+<p>2025-10-29T22:11:10 to 2026-10-29T22:11:10 · Rolling 365 days</p>
+<p class='note'>Coverage: Saved 29 October 2026 sample; cutoff reconstructed from the supplied run timestamp. Read limitations below.</p>
+<section><h2>Review sample</h2><p>2,794 reviews · Average 3.842 · One-star share 23.94%</p>
+<p>754 one/two-star reviews; 823 one/ two/three-star reviews used for issue triage.</p>
+<p>287 reviews need closer inspection; 311 have no rule match.</p>
+<p>Among these low-rated reviews, 107 contain only general feedback, 199 remain unclassified, and 5 have a possible rating/text mismatch. See the labelled CSV for every status.</p>
+<p>Store snapshot rating: 4.6396813; total ratings: 115589. Separate from the sample average.</p></section>
+<section><h2>Recent periods</h2>
+<table><tr><th>period</th><th>n</th><th>average</th><th>one_star_pct</th></tr><tr><td>Latest 30 days</td><td>215</td><td>3.833</td><td>25.12</td></tr><tr><td>Previous 30 days</td><td>242</td><td>3.843</td><td>24.79</td></tr></table>
+</section>
+<h2>Suggested actions</h2><p>Rule-matched signals, not confirmed defects. Priority uses a predefined severity order, then matched count; validate scope and effort with the owner.</p>
+<section><h2>P0 · Safety investigation</h2><p>9 matching reviews (1.09% of 1-3-star reviews)</p>
+<p>0 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Mobile + safety operations</p><p>Reproduce reported emergency-access or unsafe-trip concerns urgently; verify escalation and acknowledgement. Reports are unverified.</p><p><b>Measure:</b> Emergency-action reachability and acknowledgement</p>
+</section>
+<section><h2>P1 · App stability</h2><p>125 matching reviews (15.19% of 1-3-star reviews)</p>
+<p>10 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Mobile + QA</p><p>Reproduce launch, install-source, crash and performance complaints by device and version; do not disable integrity protections.</p><p><b>Measure:</b> Successful launches and crash-free sessions</p>
+</section>
+<section><h2>P1 · Booking reliability</h2><p>89 matching reviews (10.81% of 1-3-star reviews)</p>
+<p>8 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Mobile + backend + QA</p><p>Test date/time selection and confirmation versus trip-list state; show confirmed/waitlisted status and stable booking IDs.</p><p><b>Measure:</b> Booking success and confirmed-trip visibility</p>
+</section>
+<section><h2>P1 · Authentication</h2><p>61 matching reviews (7.41% of 1-3-star reviews)</p>
+<p>6 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Authentication + mobile</p><p>Separate OTP delivery failures from session expiry; reproduce affected login paths and respect enterprise SSO policies.</p><p><b>Measure:</b> Login success, OTP delivery and unexpected session expiry</p>
+</section>
+<section><h2>P1 · Blocking prompts</h2><p>20 matching reviews (2.43% of 1-3-star reviews)</p>
+<p>4 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Mobile + product</p><p>Make feedback/promotional prompts dismissible and nonblocking; persist consent by policy version.</p><p><b>Measure:</b> Access to current trip without mandatory feedback</p>
+</section>
+<section><h2>P1 · Connectivity / offline access</h2><p>8 matching reviews (0.97% of 1-3-star reviews)</p>
+<p>1 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Mobile + backend</p><p>Test loss of network during the active trip; preserve permitted trip information with expiry/freshness checks and clear reconnect status.</p><p><b>Measure:</b> Access to permitted trip essentials during connectivity loss</p>
+</section>
+<section><h2>P2 · Transport operations</h2><p>90 matching reviews (10.94% of 1-3-star reviews)</p>
+<p>7 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Transport desk + dispatch</p><p>Investigate routing, allocation and disputed no-shows with operational records before assigning root cause to the app.</p><p><b>Measure:</b> Travel-time excess and disputed no-shows</p>
+</section>
+<section><h2>P2 · Tracking and ETA</h2><p>79 matching reviews (9.6% of 1-3-star reviews)</p>
+<p>5 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Mobile + dispatch backend</p><p>Verify stale tracking and pickup-time changes; show freshness and protect permitted trip details during connectivity loss.</p><p><b>Measure:</b> Tracking freshness and ETA error</p>
+</section>
+<section><h2>P2 · Navigation / address UX</h2><p>52 matching reviews (6.32% of 1-3-star reviews)</p>
+<p>2 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Product design + mobile</p><p>Review the cited screen and task, especially address selection and unclear controls; reproduce the user journey before redesigning.</p><p><b>Measure:</b> Task completion and avoidable input errors</p>
+</section>
+<section><h2>P2 · Support</h2><p>45 matching reviews (5.47% of 1-3-star reviews)</p>
+<p>7 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Support + customer success</p><p>Route complaints to issue owners with specific next steps; link review replies to resolution tracking.</p><p><b>Measure:</b> Acknowledgement and resolution rate</p>
+</section>
+<section><h2>P2 · Notifications</h2><p>25 matching reviews (3.04% of 1-3-star reviews)</p>
+<p>3 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Mobile + messaging backend</p><p>Check missing, late and repeated messages separately; deduplicate repetitive notices and preserve essential trip alerts.</p><p><b>Measure:</b> Trip-alert delivery latency and duplicate notification rate</p>
+</section>
+<section><h2>P2 · Driver contact</h2><p>15 matching reviews (1.82% of 1-3-star reviews)</p>
+<p>3 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Mobile + transport operations</p><p>Test approved driver-contact paths; explain enterprise restrictions and expose an alternative contact route.</p><p><b>Measure:</b> Contact connection success</p>
+</section>
+<section><h2>P2 · Boarding</h2><p>12 matching reviews (1.46% of 1-3-star reviews)</p>
+<p>2 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Mobile + safety operations</p><p>Reproduce QR/boarding-code failures and obstructive boarding screens while preserving required safety checks.</p><p><b>Measure:</b> Successful boarding verification</p>
+</section>
+<section><h2>P2 · Feedback controls</h2><p>8 matching reviews (0.97% of 1-3-star reviews)</p>
+<p>1 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Product + mobile</p><p>Test whether users can voluntarily submit all rating levels and written feedback; distinguish feedback controls from public review sentiment.</p><p><b>Measure:</b> Feedback submission success and available rating choices</p>
+</section>
+<section><h2>P2 · Workplace / parking</h2><p>8 matching reviews (0.97% of 1-3-star reviews)</p>
+<p>1 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Workplace product + backend</p><p>Investigate parking/desk allocation, stale bookings and floor selection separately from transport self-booking.</p><p><b>Measure:</b> Valid workplace reservations and correct allocation visibility</p>
+</section>
+<section><h2>P2 · Permissions</h2><p>5 matching reviews (0.61% of 1-3-star reviews)</p>
+<p>1 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Mobile + security</p><p>Explain each permission and request it in context. Review complaints about mandatory permissions without bypassing justified controls.</p><p><b>Measure:</b> Permission-related blocked journeys</p>
+</section>
+<section><h2>P2 · Metro tickets</h2><p>1 matching reviews (0.12% of 1-3-star reviews)</p>
+<p>1 matches in the latest 30 days. Examples below are selected for detail, not necessarily recency.</p><p><b>Owner:</b> Metro integration + mobile</p><p>Test ticket purchase, QR availability and entry/exit under weak connectivity separately from cab boarding.</p><p><b>Measure:</b> Purchased tickets available at entry and exit</p>
+</section>
+<section><h2>Monthly trend</h2><p>First and last months can be incomplete.</p>
+<table><tr><th>month</th><th>n</th><th>average</th><th>one_star_pct</th></tr><tr><td>2025-10</td><td>36</td><td>3.944</td><td>19.44</td></tr><tr><td>2025-11</td><td>160</td><td>3.688</td><td>26.25</td></tr><tr><td>2025-12</td><td>196</td><td>3.837</td><td>21.94</td></tr><tr><td>2026-01</td><td>211</td><td>3.768</td><td>23.22</td></tr><tr><td>2026-02</td><td>207</td><td>3.739</td><td>27.54</td></tr><tr><td>2026-03</td><td>196</td><td>3.985</td><td>20.92</td></tr><tr><td>2026-04</td><td>292</td><td>4.034</td><td>20.89</td></tr><tr><td>2026-05</td><td>246</td><td>4.028</td><td>19.92</td></tr><tr><td>2026-06</td><td>273</td><td>3.56</td><td>31.14</td></tr><tr><td>2026-07</td><td>285</td><td>4.014</td><td>19.3</td></tr><tr><td>2026-08</td><td>242</td><td>3.653</td><td>28.51</td></tr><tr><td>2026-09</td><td>243</td><td>3.852</td><td>24.69</td></tr><tr><td>2026-10</td><td>207</td><td>3.845</td><td>24.64</td></tr></table>
+</section>
+<section><h2>Version cohorts</h2><p>Review counts are not installation counts. Differences are not proof of release causation.</p>
+<table><tr><th>version</th><th>n</th><th>average</th><th>one_star_pct</th></tr><tr><td>11.0.2</td><td>1</td><td>2.0</td><td>0.0</td></tr><tr><td>11.4.11</td><td>1</td><td>4.0</td><td>0.0</td></tr><tr><td>11.4.12</td><td>1</td><td>5.0</td><td>0.0</td></tr><tr><td>11.4.13</td><td>1</td><td>5.0</td><td>0.0</td></tr><tr><td>11.4.29</td><td>1</td><td>5.0</td><td>0.0</td></tr><tr><td>11.4.34</td><td>1</td><td>5.0</td><td>0.0</td></tr><tr><td>11.5.17</td><td>2</td><td>5.0</td><td>0.0</td></tr><tr><td>11.5.19</td><td>2</td><td>2.5</td><td>50.0</td></tr><tr><td>11.5.20</td><td>3</td><td>2.333</td><td>66.67</td></tr><tr><td>11.5.21</td><td>3</td><td>1.0</td><td>100.0</td></tr><tr><td>11.5.4</td><td>2</td><td>2.0</td><td>50.0</td></tr><tr><td>11.5.5</td><td>1</td><td>5.0</td><td>0.0</td></tr><tr><td>12.1</td><td>1</td><td>5.0</td><td>0.0</td></tr><tr><td>12.1.1</td><td>1</td><td>5.0</td><td>0.0</td></tr><tr><td>12.1.2</td><td>2</td><td>5.0</td><td>0.0</td></tr><tr><td>12.10</td><td>81</td><td>4.123</td><td>18.52</td></tr><tr><td>12.10.1</td><td>4</td><td>5.0</td><td>0.0</td></tr><tr><td>12.10.2</td><td>100</td><td>3.89</td><td>22.0</td></tr><tr><td>12.11.0</td><td>67</td><td>4.104</td><td>19.4</td></tr><tr><td>12.11.1</td><td>99</td><td>4.172</td><td>17.17</td></tr><tr><td>12.11.2</td><td>144</td><td>3.979</td><td>22.22</td></tr><tr><td>12.12.0</td><td>69</td><td>4.0</td><td>21.74</td></tr><tr><td>12.12.2</td><td>76</td><td>4.184</td><td>15.79</td></tr><tr><td>12.12.3</td><td>113</td><td>4.027</td><td>20.35</td></tr><tr><td>12.13.0</td><td>37</td><td>3.73</td><td>27.03</td></tr><tr><td>12.13.1</td><td>95</td><td>3.684</td><td>30.53</td></tr><tr><td>12.13.2</td><td>29</td><td>3.897</td><td>24.14</td></tr><tr><td>12.14.0</td><td>38</td><td>3.368</td><td>36.84</td></tr><tr><td>12.14.1</td><td>142</td><td>3.817</td><td>24.65</td></tr><tr><td>12.15.0</td><td>83</td><td>4.036</td><td>19.28</td></tr><tr><td>12.16.0</td><td>89</td><td>3.865</td><td>20.22</td></tr><tr><td>12.16.1</td><td>38</td><td>3.526</td><td>34.21</td></tr><tr><td>12.17.0</td><td>143</td><td>3.72</td><td>27.97</td></tr><tr><td>12.18.0</td><td>65</td><td>4.108</td><td>20.0</td></tr><tr><td>12.18.1</td><td>93</td><td>3.935</td><td>23.66</td></tr><tr><td>12.19.0</td><td>122</td><td>3.77</td><td>27.87</td></tr><tr><td>12.2.1</td><td>3</td><td>3.667</td><td>33.33</td></tr><tr><td>12.20.0</td><td>88</td><td>3.784</td><td>25.0</td></tr><tr><td>12.21.0</td><td>4</td><td>3.25</td><td>25.0</td></tr><tr><td>12.3</td><td>2</td><td>3.0</td><td>50.0</td></tr><tr><td>12.4</td><td>8</td><td>3.5</td><td>37.5</td></tr><tr><td>12.5</td><td>4</td><td>4.0</td><td>25.0</td></tr><tr><td>12.6</td><td>159</td><td>3.805</td><td>23.27</td></tr><tr><td>12.7</td><td>38</td><td>3.5</td><td>31.58</td></tr><tr><td>12.7.2</td><td>93</td><td>3.624</td><td>27.96</td></tr><tr><td>12.8</td><td>21</td><td>3.857</td><td>19.05</td></tr><tr><td>12.8.2</td><td>60</td><td>4.017</td><td>13.33</td></tr><tr><td>12.8.3</td><td>105</td><td>3.676</td><td>23.81</td></tr><tr><td>12.8.4</td><td>3</td><td>4.667</td><td>0.0</td></tr><tr><td>12.9.0</td><td>31</td><td>4.548</td><td>9.68</td></tr><tr><td>12.9.1</td><td>14</td><td>3.143</td><td>35.71</td></tr><tr><td>12.9.2</td><td>48</td><td>3.917</td><td>22.92</td></tr><tr><td>12.9.3</td><td>8</td><td>3.5</td><td>37.5</td></tr><tr><td>12.9.4</td><td>81</td><td>3.704</td><td>27.16</td></tr><tr><td>5.0.6</td><td>1</td><td>1.0</td><td>100.0</td></tr><tr><td>unknown</td><td>273</td><td>3.615</td><td>27.84</td></tr></table>
+</section>
+<section><h2>Method and limitations</h2><ul>
+<li>Public example: original review text and identifiers are omitted. Counts are from the saved sample. No new live fetch was performed to create this example.</li>
+<li>Rule-based triage, not validated theme prevalence or a causal diagnosis.</li>
+<li>Tools: Python standard library and google-play-scraper. Development and initial review were assisted by Claude and ChatGPT; runtime analysis uses no LLM API.</li>
+<li>Recommendations use predefined engineering playbooks and require review.</li>
+<li>Generic feedback without a concrete issue is retained separately, not treated as a specific defect.</li>
+<li>Evidence examples favour detailed descriptions (SOS-related text first for safety), not a random sample.</li>
+<li>Theme shares overlap and use 1-3-star reviews, not only 1-2 stars.</li>
+<li>Self-selected fetched review sample; averages are not the displayed store rating.</li>
+<li>Edited review dates can change cohorts. Reply delay is not calculated.</li>
+<li>Partial boundary months and small version samples are not like-for-like comparisons.</li>
+<li>Raw scraper timestamps and the cutoff use the computer&#x27;s local clock.</li>
+</ul></section></html>

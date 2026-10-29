@@ -1,0 +1,803 @@
+{
+  "window_start": "2025-10-29T22:11:10",
+  "window_end": "2026-10-29T22:11:10",
+  "window_days": 365,
+  "coverage": "Saved 29 October 2026 sample; cutoff reconstructed from the supplied run timestamp",
+  "app_id": "com.moveinsync.ets",
+  "language": "en",
+  "country": "in",
+  "metrics": {
+    "n": 2794,
+    "average": 3.842,
+    "one_star_pct": 23.94,
+    "negative_n": 754,
+    "replied_n": 67
+  },
+  "low_rating_n": 823,
+  "review_queue_n": 287,
+  "no_rule_match_n": 311,
+  "status_counts": {
+    "unclassified_needs_review": 199,
+    "rule_matched": 512,
+    "general_feedback_no_detail": 107,
+    "rating_text_mismatch": 5
+  },
+  "classifier_version": "rules-v2",
+  "recommendation_method": "Predefined playbooks selected by rule matches; no LLM API",
+  "latest_30_days": {
+    "n": 215,
+    "average": 3.833,
+    "one_star_pct": 25.12,
+    "negative_n": 61,
+    "replied_n": 4
+  },
+  "previous_30_days": {
+    "n": 242,
+    "average": 3.843,
+    "one_star_pct": 24.79,
+    "negative_n": 67,
+    "replied_n": 1
+  },
+  "monthly": [
+    {
+      "month": "2025-10",
+      "n": 36,
+      "average": 3.944,
+      "one_star_pct": 19.44,
+      "negative_n": 8,
+      "replied_n": 1
+    },
+    {
+      "month": "2025-11",
+      "n": 160,
+      "average": 3.688,
+      "one_star_pct": 26.25,
+      "negative_n": 48,
+      "replied_n": 26
+    },
+    {
+      "month": "2025-12",
+      "n": 196,
+      "average": 3.837,
+      "one_star_pct": 21.94,
+      "negative_n": 54,
+      "replied_n": 18
+    },
+    {
+      "month": "2026-01",
+      "n": 211,
+      "average": 3.768,
+      "one_star_pct": 23.22,
+      "negative_n": 60,
+      "replied_n": 9
+    },
+    {
+      "month": "2026-02",
+      "n": 207,
+      "average": 3.739,
+      "one_star_pct": 27.54,
+      "negative_n": 62,
+      "replied_n": 0
+    },
+    {
+      "month": "2026-03",
+      "n": 196,
+      "average": 3.985,
+      "one_star_pct": 20.92,
+      "negative_n": 46,
+      "replied_n": 2
+    },
+    {
+      "month": "2026-04",
+      "n": 292,
+      "average": 4.034,
+      "one_star_pct": 20.89,
+      "negative_n": 64,
+      "replied_n": 1
+    },
+    {
+      "month": "2026-05",
+      "n": 246,
+      "average": 4.028,
+      "one_star_pct": 19.92,
+      "negative_n": 52,
+      "replied_n": 1
+    },
+    {
+      "month": "2026-06",
+      "n": 273,
+      "average": 3.56,
+      "one_star_pct": 31.14,
+      "negative_n": 92,
+      "replied_n": 2
+    },
+    {
+      "month": "2026-07",
+      "n": 285,
+      "average": 4.014,
+      "one_star_pct": 19.3,
+      "negative_n": 66,
+      "replied_n": 1
+    },
+    {
+      "month": "2026-08",
+      "n": 242,
+      "average": 3.653,
+      "one_star_pct": 28.51,
+      "negative_n": 77,
+      "replied_n": 1
+    },
+    {
+      "month": "2026-09",
+      "n": 243,
+      "average": 3.852,
+      "one_star_pct": 24.69,
+      "negative_n": 67,
+      "replied_n": 1
+    },
+    {
+      "month": "2026-10",
+      "n": 207,
+      "average": 3.845,
+      "one_star_pct": 24.64,
+      "negative_n": 58,
+      "replied_n": 4
+    }
+  ],
+  "versions": [
+    {
+      "version": "11.0.2",
+      "n": 1,
+      "average": 2.0,
+      "one_star_pct": 0.0,
+      "negative_n": 1,
+      "replied_n": 0
+    },
+    {
+      "version": "11.4.11",
+      "n": 1,
+      "average": 4.0,
+      "one_star_pct": 0.0,
+      "negative_n": 0,
+      "replied_n": 0
+    },
+    {
+      "version": "11.4.12",
+      "n": 1,
+      "average": 5.0,
+      "one_star_pct": 0.0,
+      "negative_n": 0,
+      "replied_n": 0
+    },
+    {
+      "version": "11.4.13",
+      "n": 1,
+      "average": 5.0,
+      "one_star_pct": 0.0,
+      "negative_n": 0,
+      "replied_n": 0
+    },
+    {
+      "version": "11.4.29",
+      "n": 1,
+      "average": 5.0,
+      "one_star_pct": 0.0,
+      "negative_n": 0,
+      "replied_n": 0
+    },
+    {
+      "version": "11.4.34",
+      "n": 1,
+      "average": 5.0,
+      "one_star_pct": 0.0,
+      "negative_n": 0,
+      "replied_n": 0
+    },
+    {
+      "version": "11.5.17",
+      "n": 2,
+      "average": 5.0,
+      "one_star_pct": 0.0,
+      "negative_n": 0,
+      "replied_n": 0
+    },
+    {
+      "version": "11.5.19",
+      "n": 2,
+      "average": 2.5,
+      "one_star_pct": 50.0,
+      "negative_n": 1,
+      "replied_n": 0
+    },
+    {
+      "version": "11.5.20",
+      "n": 3,
+      "average": 2.333,
+      "one_star_pct": 66.67,
+      "negative_n": 2,
+      "replied_n": 0
+    },
+    {
+      "version": "11.5.21",
+      "n": 3,
+      "average": 1.0,
+      "one_star_pct": 100.0,
+      "negative_n": 3,
+      "replied_n": 0
+    },
+    {
+      "version": "11.5.4",
+      "n": 2,
+      "average": 2.0,
+      "one_star_pct": 50.0,
+      "negative_n": 1,
+      "replied_n": 0
+    },
+    {
+      "version": "11.5.5",
+      "n": 1,
+      "average": 5.0,
+      "one_star_pct": 0.0,
+      "negative_n": 0,
+      "replied_n": 0
+    },
+    {
+      "version": "12.1",
+      "n": 1,
+      "average": 5.0,
+      "one_star_pct": 0.0,
+      "negative_n": 0,
+      "replied_n": 0
+    },
+    {
+      "version": "12.1.1",
+      "n": 1,
+      "average": 5.0,
+      "one_star_pct": 0.0,
+      "negative_n": 0,
+      "replied_n": 0
+    },
+    {
+      "version": "12.1.2",
+      "n": 2,
+      "average": 5.0,
+      "one_star_pct": 0.0,
+      "negative_n": 0,
+      "replied_n": 0
+    },
+    {
+      "version": "12.10",
+      "n": 81,
+      "average": 4.123,
+      "one_star_pct": 18.52,
+      "negative_n": 16,
+      "replied_n": 0
+    },
+    {
+      "version": "12.10.1",
+      "n": 4,
+      "average": 5.0,
+      "one_star_pct": 0.0,
+      "negative_n": 0,
+      "replied_n": 0
+    },
+    {
+      "version": "12.10.2",
+      "n": 100,
+      "average": 3.89,
+      "one_star_pct": 22.0,
+      "negative_n": 25,
+      "replied_n": 1
+    },
+    {
+      "version": "12.11.0",
+      "n": 67,
+      "average": 4.104,
+      "one_star_pct": 19.4,
+      "negative_n": 14,
+      "replied_n": 1
+    },
+    {
+      "version": "12.11.1",
+      "n": 99,
+      "average": 4.172,
+      "one_star_pct": 17.17,
+      "negative_n": 18,
+      "replied_n": 0
+    },
+    {
+      "version": "12.11.2",
+      "n": 144,
+      "average": 3.979,
+      "one_star_pct": 22.22,
+      "negative_n": 33,
+      "replied_n": 1
+    },
+    {
+      "version": "12.12.0",
+      "n": 69,
+      "average": 4.0,
+      "one_star_pct": 21.74,
+      "negative_n": 15,
+      "replied_n": 0
+    },
+    {
+      "version": "12.12.2",
+      "n": 76,
+      "average": 4.184,
+      "one_star_pct": 15.79,
+      "negative_n": 13,
+      "replied_n": 1
+    },
+    {
+      "version": "12.12.3",
+      "n": 113,
+      "average": 4.027,
+      "one_star_pct": 20.35,
+      "negative_n": 25,
+      "replied_n": 0
+    },
+    {
+      "version": "12.13.0",
+      "n": 37,
+      "average": 3.73,
+      "one_star_pct": 27.03,
+      "negative_n": 11,
+      "replied_n": 1
+    },
+    {
+      "version": "12.13.1",
+      "n": 95,
+      "average": 3.684,
+      "one_star_pct": 30.53,
+      "negative_n": 29,
+      "replied_n": 0
+    },
+    {
+      "version": "12.13.2",
+      "n": 29,
+      "average": 3.897,
+      "one_star_pct": 24.14,
+      "negative_n": 7,
+      "replied_n": 0
+    },
+    {
+      "version": "12.14.0",
+      "n": 38,
+      "average": 3.368,
+      "one_star_pct": 36.84,
+      "negative_n": 15,
+      "replied_n": 1
+    },
+    {
+      "version": "12.14.1",
+      "n": 142,
+      "average": 3.817,
+      "one_star_pct": 24.65,
+      "negative_n": 39,
+      "replied_n": 0
+    },
+    {
+      "version": "12.15.0",
+      "n": 83,
+      "average": 4.036,
+      "one_star_pct": 19.28,
+      "negative_n": 19,
+      "replied_n": 1
+    },
+    {
+      "version": "12.16.0",
+      "n": 89,
+      "average": 3.865,
+      "one_star_pct": 20.22,
+      "negative_n": 24,
+      "replied_n": 1
+    },
+    {
+      "version": "12.16.1",
+      "n": 38,
+      "average": 3.526,
+      "one_star_pct": 34.21,
+      "negative_n": 13,
+      "replied_n": 0
+    },
+    {
+      "version": "12.17.0",
+      "n": 143,
+      "average": 3.72,
+      "one_star_pct": 27.97,
+      "negative_n": 44,
+      "replied_n": 0
+    },
+    {
+      "version": "12.18.0",
+      "n": 65,
+      "average": 4.108,
+      "one_star_pct": 20.0,
+      "negative_n": 13,
+      "replied_n": 0
+    },
+    {
+      "version": "12.18.1",
+      "n": 93,
+      "average": 3.935,
+      "one_star_pct": 23.66,
+      "negative_n": 24,
+      "replied_n": 1
+    },
+    {
+      "version": "12.19.0",
+      "n": 122,
+      "average": 3.77,
+      "one_star_pct": 27.87,
+      "negative_n": 37,
+      "replied_n": 1
+    },
+    {
+      "version": "12.2.1",
+      "n": 3,
+      "average": 3.667,
+      "one_star_pct": 33.33,
+      "negative_n": 1,
+      "replied_n": 0
+    },
+    {
+      "version": "12.20.0",
+      "n": 88,
+      "average": 3.784,
+      "one_star_pct": 25.0,
+      "negative_n": 26,
+      "replied_n": 3
+    },
+    {
+      "version": "12.21.0",
+      "n": 4,
+      "average": 3.25,
+      "one_star_pct": 25.0,
+      "negative_n": 2,
+      "replied_n": 0
+    },
+    {
+      "version": "12.3",
+      "n": 2,
+      "average": 3.0,
+      "one_star_pct": 50.0,
+      "negative_n": 1,
+      "replied_n": 0
+    },
+    {
+      "version": "12.4",
+      "n": 8,
+      "average": 3.5,
+      "one_star_pct": 37.5,
+      "negative_n": 3,
+      "replied_n": 0
+    },
+    {
+      "version": "12.5",
+      "n": 4,
+      "average": 4.0,
+      "one_star_pct": 25.0,
+      "negative_n": 1,
+      "replied_n": 0
+    },
+    {
+      "version": "12.6",
+      "n": 159,
+      "average": 3.805,
+      "one_star_pct": 23.27,
+      "negative_n": 42,
+      "replied_n": 19
+    },
+    {
+      "version": "12.7",
+      "n": 38,
+      "average": 3.5,
+      "one_star_pct": 31.58,
+      "negative_n": 14,
+      "replied_n": 7
+    },
+    {
+      "version": "12.7.2",
+      "n": 93,
+      "average": 3.624,
+      "one_star_pct": 27.96,
+      "negative_n": 31,
+      "replied_n": 11
+    },
+    {
+      "version": "12.8",
+      "n": 21,
+      "average": 3.857,
+      "one_star_pct": 19.05,
+      "negative_n": 5,
+      "replied_n": 1
+    },
+    {
+      "version": "12.8.2",
+      "n": 60,
+      "average": 4.017,
+      "one_star_pct": 13.33,
+      "negative_n": 14,
+      "replied_n": 4
+    },
+    {
+      "version": "12.8.3",
+      "n": 105,
+      "average": 3.676,
+      "one_star_pct": 23.81,
+      "negative_n": 33,
+      "replied_n": 0
+    },
+    {
+      "version": "12.8.4",
+      "n": 3,
+      "average": 4.667,
+      "one_star_pct": 0.0,
+      "negative_n": 0,
+      "replied_n": 0
+    },
+    {
+      "version": "12.9.0",
+      "n": 31,
+      "average": 4.548,
+      "one_star_pct": 9.68,
+      "negative_n": 3,
+      "replied_n": 0
+    },
+    {
+      "version": "12.9.1",
+      "n": 14,
+      "average": 3.143,
+      "one_star_pct": 35.71,
+      "negative_n": 5,
+      "replied_n": 1
+    },
+    {
+      "version": "12.9.2",
+      "n": 48,
+      "average": 3.917,
+      "one_star_pct": 22.92,
+      "negative_n": 13,
+      "replied_n": 7
+    },
+    {
+      "version": "12.9.3",
+      "n": 8,
+      "average": 3.5,
+      "one_star_pct": 37.5,
+      "negative_n": 3,
+      "replied_n": 0
+    },
+    {
+      "version": "12.9.4",
+      "n": 81,
+      "average": 3.704,
+      "one_star_pct": 27.16,
+      "negative_n": 25,
+      "replied_n": 0
+    },
+    {
+      "version": "5.0.6",
+      "n": 1,
+      "average": 1.0,
+      "one_star_pct": 100.0,
+      "negative_n": 1,
+      "replied_n": 0
+    },
+    {
+      "version": "unknown",
+      "n": 273,
+      "average": 3.615,
+      "one_star_pct": 27.84,
+      "negative_n": 89,
+      "replied_n": 4
+    }
+  ],
+  "store_snapshot": {
+    "score": 4.6396813,
+    "ratings": 115589
+  },
+  "recommendations": [
+    {
+      "theme": "Safety investigation",
+      "priority": 0,
+      "owner": "Mobile + safety operations",
+      "action": "Reproduce reported emergency-access or unsafe-trip concerns urgently; verify escalation and acknowledgement. Reports are unverified.",
+      "metric": "Emergency-action reachability and acknowledgement",
+      "count": 9,
+      "pct_low": 1.09,
+      "recent_30_n": 0,
+      "evidence": []
+    },
+    {
+      "theme": "App stability",
+      "priority": 1,
+      "owner": "Mobile + QA",
+      "action": "Reproduce launch, install-source, crash and performance complaints by device and version; do not disable integrity protections.",
+      "metric": "Successful launches and crash-free sessions",
+      "count": 125,
+      "pct_low": 15.19,
+      "recent_30_n": 10,
+      "evidence": []
+    },
+    {
+      "theme": "Booking reliability",
+      "priority": 1,
+      "owner": "Mobile + backend + QA",
+      "action": "Test date/time selection and confirmation versus trip-list state; show confirmed/waitlisted status and stable booking IDs.",
+      "metric": "Booking success and confirmed-trip visibility",
+      "count": 89,
+      "pct_low": 10.81,
+      "recent_30_n": 8,
+      "evidence": []
+    },
+    {
+      "theme": "Authentication",
+      "priority": 1,
+      "owner": "Authentication + mobile",
+      "action": "Separate OTP delivery failures from session expiry; reproduce affected login paths and respect enterprise SSO policies.",
+      "metric": "Login success, OTP delivery and unexpected session expiry",
+      "count": 61,
+      "pct_low": 7.41,
+      "recent_30_n": 6,
+      "evidence": []
+    },
+    {
+      "theme": "Blocking prompts",
+      "priority": 1,
+      "owner": "Mobile + product",
+      "action": "Make feedback/promotional prompts dismissible and nonblocking; persist consent by policy version.",
+      "metric": "Access to current trip without mandatory feedback",
+      "count": 20,
+      "pct_low": 2.43,
+      "recent_30_n": 4,
+      "evidence": []
+    },
+    {
+      "theme": "Connectivity / offline access",
+      "priority": 1,
+      "owner": "Mobile + backend",
+      "action": "Test loss of network during the active trip; preserve permitted trip information with expiry/freshness checks and clear reconnect status.",
+      "metric": "Access to permitted trip essentials during connectivity loss",
+      "count": 8,
+      "pct_low": 0.97,
+      "recent_30_n": 1,
+      "evidence": []
+    },
+    {
+      "theme": "Transport operations",
+      "priority": 2,
+      "owner": "Transport desk + dispatch",
+      "action": "Investigate routing, allocation and disputed no-shows with operational records before assigning root cause to the app.",
+      "metric": "Travel-time excess and disputed no-shows",
+      "count": 90,
+      "pct_low": 10.94,
+      "recent_30_n": 7,
+      "evidence": []
+    },
+    {
+      "theme": "Tracking and ETA",
+      "priority": 2,
+      "owner": "Mobile + dispatch backend",
+      "action": "Verify stale tracking and pickup-time changes; show freshness and protect permitted trip details during connectivity loss.",
+      "metric": "Tracking freshness and ETA error",
+      "count": 79,
+      "pct_low": 9.6,
+      "recent_30_n": 5,
+      "evidence": []
+    },
+    {
+      "theme": "Navigation / address UX",
+      "priority": 2,
+      "owner": "Product design + mobile",
+      "action": "Review the cited screen and task, especially address selection and unclear controls; reproduce the user journey before redesigning.",
+      "metric": "Task completion and avoidable input errors",
+      "count": 52,
+      "pct_low": 6.32,
+      "recent_30_n": 2,
+      "evidence": []
+    },
+    {
+      "theme": "Support",
+      "priority": 2,
+      "owner": "Support + customer success",
+      "action": "Route complaints to issue owners with specific next steps; link review replies to resolution tracking.",
+      "metric": "Acknowledgement and resolution rate",
+      "count": 45,
+      "pct_low": 5.47,
+      "recent_30_n": 7,
+      "evidence": []
+    },
+    {
+      "theme": "Notifications",
+      "priority": 2,
+      "owner": "Mobile + messaging backend",
+      "action": "Check missing, late and repeated messages separately; deduplicate repetitive notices and preserve essential trip alerts.",
+      "metric": "Trip-alert delivery latency and duplicate notification rate",
+      "count": 25,
+      "pct_low": 3.04,
+      "recent_30_n": 3,
+      "evidence": []
+    },
+    {
+      "theme": "Driver contact",
+      "priority": 2,
+      "owner": "Mobile + transport operations",
+      "action": "Test approved driver-contact paths; explain enterprise restrictions and expose an alternative contact route.",
+      "metric": "Contact connection success",
+      "count": 15,
+      "pct_low": 1.82,
+      "recent_30_n": 3,
+      "evidence": []
+    },
+    {
+      "theme": "Boarding",
+      "priority": 2,
+      "owner": "Mobile + safety operations",
+      "action": "Reproduce QR/boarding-code failures and obstructive boarding screens while preserving required safety checks.",
+      "metric": "Successful boarding verification",
+      "count": 12,
+      "pct_low": 1.46,
+      "recent_30_n": 2,
+      "evidence": []
+    },
+    {
+      "theme": "Feedback controls",
+      "priority": 2,
+      "owner": "Product + mobile",
+      "action": "Test whether users can voluntarily submit all rating levels and written feedback; distinguish feedback controls from public review sentiment.",
+      "metric": "Feedback submission success and available rating choices",
+      "count": 8,
+      "pct_low": 0.97,
+      "recent_30_n": 1,
+      "evidence": []
+    },
+    {
+      "theme": "Workplace / parking",
+      "priority": 2,
+      "owner": "Workplace product + backend",
+      "action": "Investigate parking/desk allocation, stale bookings and floor selection separately from transport self-booking.",
+      "metric": "Valid workplace reservations and correct allocation visibility",
+      "count": 8,
+      "pct_low": 0.97,
+      "recent_30_n": 1,
+      "evidence": []
+    },
+    {
+      "theme": "Permissions",
+      "priority": 2,
+      "owner": "Mobile + security",
+      "action": "Explain each permission and request it in context. Review complaints about mandatory permissions without bypassing justified controls.",
+      "metric": "Permission-related blocked journeys",
+      "count": 5,
+      "pct_low": 0.61,
+      "recent_30_n": 1,
+      "evidence": []
+    },
+    {
+      "theme": "Metro tickets",
+      "priority": 2,
+      "owner": "Metro integration + mobile",
+      "action": "Test ticket purchase, QR availability and entry/exit under weak connectivity separately from cab boarding.",
+      "metric": "Purchased tickets available at entry and exit",
+      "count": 1,
+      "pct_low": 0.12,
+      "recent_30_n": 1,
+      "evidence": []
+    }
+  ],
+  "limitations": [
+    "Public example: original review text and identifiers are omitted. Counts are from the saved sample. No new live fetch was performed to create this example.",
+    "Rule-based triage, not validated theme prevalence or a causal diagnosis.",
+    "Tools: Python standard library and google-play-scraper. Development and initial review were assisted by Claude and ChatGPT; runtime analysis uses no LLM API.",
+    "Recommendations use predefined engineering playbooks and require review.",
+    "Generic feedback without a concrete issue is retained separately, not treated as a specific defect.",
+    "Evidence examples favour detailed descriptions (SOS-related text first for safety), not a random sample.",
+    "Theme shares overlap and use 1-3-star reviews, not only 1-2 stars.",
+    "Self-selected fetched review sample; averages are not the displayed store rating.",
+    "Edited review dates can change cohorts. Reply delay is not calculated.",
+    "Partial boundary months and small version samples are not like-for-like comparisons.",
+    "Raw scraper timestamps and the cutoff use the computer's local clock."
+  ]
+}
