@@ -100,3 +100,11 @@ Public examples omit original review text. Local reports and CSVs may contain na
 ## Tools and development assistance
 
 Python standard library and `google-play-scraper` power the current pipeline. Pandas was used in the earlier exploratory scripts. Claude and ChatGPT assisted code development and initial analysis. Runtime analysis makes no LLM API calls. Scheduling, external tickets and product fixes are not configured.
+
+# MoveInSync Review Monitor
+
+## Ready-to-view results
+
+[Open the complete 365-day results report](MoveInSync_HTML_Results.pdf)
+
+This PDF contains the completed analysis and recommendations. The code below explains how to reproduce the pipeline.
